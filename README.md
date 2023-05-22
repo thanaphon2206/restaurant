@@ -21,15 +21,15 @@ Please install Docker service first and Open terminal and navigate (`cd`) to thi
 3. docker-compose down // for stop service
 ```
 
-## Reservation Project Structure
+## Project Structure
 
 ```
-Reserve\         
+restaurant\         
  |--logs\                       # Log files             
  |--src\
     |--config\                  # module
     |--controllers\             # Route Handlers/Controllers for API endpoints
-       |--booking\              # Controller management
+       |--restaurant\              # Controller management
     |--middleware\              # Custom express middlewares
     |--routes\                  # Definition of API endpoints
     |--services\                # Core logic reservation
