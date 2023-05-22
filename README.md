@@ -71,6 +71,6 @@ restaurant\
 
 ##### Example cURL
 > ```javascript
->  curl -i -H 'Accept: application/json' http://localhost:6699/booking/initialize/ req.body { restaurant: "example b, table: 5" }
+>  curl -i -H 'Accept: application/json' http://localhost:6699/api/restaurant/initialize/ req.body { restaurant: "example b, table: 5" }
 > ```
 </details>
