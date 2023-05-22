@@ -1,0 +1,15 @@
+{
+  "name": "res-api",
+  "script": "./src/index.js",
+  "instances": 1,
+  "exec_mode": "fork",
+  "env_development": {
+    "NODE_ENV": "development",
+    "PORT": 6699,
+    "MONGODB_URL": "",
+    "JWT_SECRET": "visa-to-access",
+    "JWT_ACCESS_EXPIRATION_MINUTES": "30",
+    "JWT_REFRESH_EXPIRATION_DAYS": "30",
+    "JWT_EXPIRATION_MINUTES": "1440"
+  }
+}
